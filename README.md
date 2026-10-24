@@ -3,7 +3,7 @@
 A dark [Omarchy](https://omarchy.org) theme inspired by Ram Dass's *Be Here Now*:
 violet ink, warm paper, and saffron accents, with eight original wallpapers:
 an indigo cover-style print, chairs, mandalas, a meditating figure at a CRT
-terminal, and a long-exposure crowd streaming past a still point.
+terminal, and one person standing still while a long-exposure crowd moves past.
 
 ![Be Here Now with fastfetch, Omanta, and two terminals](docs/screenshots/04-terminals.png)
 
@@ -63,7 +63,7 @@ To pick up changes later, run `omarchy theme update`.
 | `04-cosmic-mandala.png` | An empty chair inside a large psychedelic mandala. |
 | `05-lotus-pose-terminal.png` | A stick figure in lotus pose at a CRT terminal. |
 | `06-lotus-terminal.png` | A lotus-shaped figure at a CRT terminal. |
-| `07-still-point.png` | Long exposure: a figure sits still in lotus pose while a blurred crowd and light trails stream past. |
+| `07-still-point.png` | Long exposure: one person stands still in a station hall while a blurred crowd moves all around them. |
 
 Cycle through them with `omarchy theme bg next`.
 

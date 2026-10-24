@@ -1,8 +1,9 @@
 # Be Here Now for Omarchy
 
 A dark [Omarchy](https://omarchy.org) theme inspired by Ram Dass's *Be Here Now*:
-violet ink, warm paper, and saffron accents, with six original wallpapers of
-chairs, mandalas, and a meditating figure at a CRT terminal.
+violet ink, warm paper, and saffron accents, with eight original wallpapers:
+an indigo cover-style print, chairs, mandalas, a meditating figure at a CRT
+terminal, and a long-exposure crowd streaming past a still point.
 
 ![Be Here Now with fastfetch, Omanta, and two terminals](docs/screenshots/04-terminals.png)
 
@@ -23,7 +24,7 @@ chairs, mandalas, and a meditating figure at a CRT terminal.
 - Soft, warm ANSI colors: red, green, and yellow stay distinct for errors,
   success, and warnings.
 - `Yaru-yellow` icons.
-- Six wallpapers and an optional pixel-dissolve screensaver.
+- Eight wallpapers and an optional pixel-dissolve screensaver.
 
 | Role | Color |
 | --- | --- |
@@ -51,30 +52,34 @@ To pick up changes later, run `omarchy theme update`.
 
 ## Wallpapers
 
-![The six wallpapers](docs/wallpapers.jpg)
+![The eight wallpapers](docs/wallpapers.jpg)
 
 | File | Description |
 | --- | --- |
+| `00-remember.png` | Default. Indigo print: a white chord-web sphere around an empty chair, ringed by BE HERE NOW and REMEMBER. |
 | `01-chair.png` | A single hand-drawn chair on deep violet. |
 | `02-mandala.png` | The chair inside a ring of type and fine line work. |
 | `03-brown-paper.png` | A lotus on warm brown paper. |
 | `04-cosmic-mandala.png` | An empty chair inside a large psychedelic mandala. |
 | `05-lotus-pose-terminal.png` | A stick figure in lotus pose at a CRT terminal. |
 | `06-lotus-terminal.png` | A lotus-shaped figure at a CRT terminal. |
+| `07-still-point.png` | Long exposure: a figure sits still in lotus pose while a blurred crowd and light trails stream past. |
 
 Cycle through them with `omarchy theme bg next`.
 
-The first three are 3840 × 2560 vector renders. Their editable SVGs and the
-script that draws them are in `artwork/`; rebuild them with
-`python artwork/render.py` (needs `rsvg-convert` from `librsvg`). The other
-three are 1536 × 1024 illustrations made with an image-generation model; their
-full prompts are in `artwork/psychedelic-prompts.json`.
+`00-remember`, `01`–`03`, and `07-still-point` are 3840 × 2560 vector renders.
+Their editable SVGs and the script that draws them are in `artwork/`; rebuild
+them with `python artwork/render.py` (needs `rsvg-convert` from `librsvg`). The
+other three (`04`–`06`) are 1536 × 1024 illustrations made with an
+image-generation model; their full prompts are in
+`artwork/psychedelic-prompts.json`.
 
-All the artwork is original. None of it is scanned or copied from the book.
+All the artwork is original. `00-remember` is a new drawing in the spirit of
+the 1971 cover; none of it is scanned or copied from the book.
 
 ## Pixel-dissolve screensaver
 
-This is optional. The six wallpapers take turns on screen: each one dissolves
+This is optional. The eight wallpapers take turns on screen: each one dissolves
 in from coarse pixels over about three seconds, holds in full detail for twelve
 seconds, then dissolves back out over deep plum before the next one arrives.
 

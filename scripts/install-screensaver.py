@@ -101,7 +101,7 @@ def main():
     if runtime.exists():
         shutil.copytree(runtime, backup / 'runtime')
 
-    # Theme runtime: QML, shader, launcher and the six backgrounds.
+    # Theme runtime: QML, shader, launcher and the backgrounds.
     config = runtime / 'org.omarchy.screensaver'
     config.mkdir(parents=True, exist_ok=True)
     for asset in ASSETS:

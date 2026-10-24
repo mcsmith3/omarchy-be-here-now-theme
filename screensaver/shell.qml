@@ -7,7 +7,9 @@ import Quickshell.Hyprland
 ShellRoot {
   id: root
   readonly property var scenes: [
+    { file: "00-remember.png", title: "Remember" },
     { file: "06-lotus-terminal.png", title: "Lotus Terminal" },
+    { file: "07-still-point.png", title: "Still Point" },
     { file: "05-lotus-pose-terminal.png", title: "Lotus Pose Terminal" },
     { file: "04-cosmic-mandala.png", title: "Cosmic Mandala" },
     { file: "01-chair.png", title: "Chair" },

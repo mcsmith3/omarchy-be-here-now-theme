@@ -1,9 +1,10 @@
 # Be Here Now for Omarchy
 
 A dark [Omarchy](https://omarchy.org) theme inspired by Ram Dass's *Be Here Now*:
-violet ink, warm paper, and saffron accents, with eight original wallpapers:
+violet ink, warm paper, and saffron accents, with eight wallpapers:
 an indigo cover-style print, chairs, mandalas, a meditating figure at a CRT
-terminal, and one person standing still while a long-exposure crowd moves past.
+terminal, and a long-exposure photo of people standing still while a crowd
+streams past.
 
 ![Be Here Now with fastfetch, Omanta, and two terminals](docs/screenshots/04-terminals.png)
 
@@ -63,19 +64,26 @@ To pick up changes later, run `omarchy theme update`.
 | `04-cosmic-mandala.png` | An empty chair inside a large psychedelic mandala. |
 | `05-lotus-pose-terminal.png` | A stick figure in lotus pose at a CRT terminal. |
 | `06-lotus-terminal.png` | A lotus-shaped figure at a CRT terminal. |
-| `07-still-point.png` | Long exposure: one person stands still in a station hall while a blurred crowd moves all around them. |
+| `07-still-point.png` | Long-exposure photo: people stand still while a blurred crowd and light trails stream past. Recoloured to the palette. |
 
 Cycle through them with `omarchy theme bg next`.
 
-`00-remember`, `01`–`03`, and `07-still-point` are 3840 × 2560 vector renders.
+`00-remember` and `01`–`03` are 3840 × 2560 vector renders.
 Their editable SVGs and the script that draws them are in `artwork/`; rebuild
 them with `python artwork/render.py` (needs `rsvg-convert` from `librsvg`). The
 other three (`04`–`06`) are 1536 × 1024 illustrations made with an
 image-generation model; their full prompts are in
 `artwork/psychedelic-prompts.json`.
 
-All the artwork is original. `00-remember` is a new drawing in the spirit of
-the 1971 cover; none of it is scanned or copied from the book.
+`00-remember` is a new drawing in the spirit of the 1971 cover; none of the
+drawn or generated artwork is scanned or copied from the book.
+
+`07-still-point` is a recoloured crop of
+[“Long-exposure crowds”](https://commons.wikimedia.org/wiki/File:Long-exposure_crowds_(24410415379).jpg)
+by Colin Knowles, licensed
+[CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/). The
+recoloured version is shared under the same licence.
+`artwork/grade-still-point.sh` rebuilds it from the original.
 
 ## Pixel-dissolve screensaver
 
@@ -118,6 +126,7 @@ Re-apply the theme after an edit with `omarchy theme set be-here-now`.
 
 ## License
 
-[MIT](LICENSE). *Be Here Now* is a book by Ram Dass. This theme is a fan
-tribute and is not affiliated with or endorsed by Ram Dass, the Love Serve
+[MIT](LICENSE), except `backgrounds/07-still-point.png`, which is
+CC BY-SA 2.0 (see above). *Be Here Now* is a book by Ram Dass. This theme is a
+fan tribute and is not affiliated with or endorsed by Ram Dass, the Love Serve
 Remember Foundation, or the book's publishers.

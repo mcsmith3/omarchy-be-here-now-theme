@@ -21,7 +21,7 @@ fi
 lock_state=$(omarchy-shell lock isLocked 2>/dev/null) || exit 1
 [[ $lock_state == false ]] || exit 0
 
-for asset in shell.qml pixel-dissolve.frag.qsb images/00-remember.png images/01-chair.png images/02-mandala.png images/03-brown-paper.png images/04-cosmic-mandala.png images/05-lotus-pose-terminal.png images/06-lotus-terminal.png images/07-still-point.png; do
+for asset in shell.qml pixel-dissolve.frag.qsb images/00-remember.png images/01-chair.png images/02-mandala.png images/03-brown-paper.png images/04-cosmic-mandala.png images/05-lotus-pose-terminal.png images/06-lotus-terminal.png images/07-still-point.png images/08-terminal.png; do
   if [[ ! -r $runtime/org.omarchy.screensaver/$asset ]]; then
     echo "Missing Be Here Now screensaver asset: $asset; using the stock screensaver." >&2
     if [[ $mode == --preview ]]; then exec omarchy-launch-screensaver force; fi

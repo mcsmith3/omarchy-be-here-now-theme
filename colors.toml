@@ -1,0 +1,36 @@
+# Be Here Now — violet ink, warm paper, and saffron.
+mode = "dark"
+accent = "#DDB568"
+cursor = "#DDB568"
+selection = "#49365F"
+selection_foreground = "#F5EBD9"
+muted = "#9B8AA6"
+
+background = "#191421"
+dark_background = "#14101B"
+darker_background = "#100C16"
+lighter_background = "#261D32"
+
+foreground = "#EADCC3"
+dark_foreground = "#B8A991"
+light_foreground = "#EFE3CE"
+bright_foreground = "#F5EBD9"
+
+hyprland_active_border = "#DDB568"
+hyprland_inactive_border = "#49365F"
+
+red = "#D88978"
+yellow = "#DDB568"
+orange = "#DFA070"
+green = "#A9B58D"
+cyan = "#92B8B0"
+blue = "#9CAFD8"
+magenta = "#B49AD8"
+brown = "#A98462"
+
+bright_red = "#EEA18D"
+bright_yellow = "#EBC986"
+bright_green = "#C1CEA2"
+bright_cyan = "#AED2C8"
+bright_blue = "#B7C8ED"
+bright_magenta = "#CFB3EF"

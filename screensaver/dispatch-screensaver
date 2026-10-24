@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Routes Omarchy's idle screensaver to the active theme's own saver, if any.
+theme_name=""
+[[ ! -f $HOME/.local/state/omarchy/current/theme.name ]] || read -r theme_name < "$HOME/.local/state/omarchy/current/theme.name"
+
+case "$theme_name" in
+  *)
+    exec omarchy-launch-screensaver "$@"
+    ;;
+esac
+
+if [[ -x $launcher ]]; then
+  exec "$launcher" "$@"
+fi
+exec omarchy-launch-screensaver "$@"
